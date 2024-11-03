@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Doppler Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container" style="text-align: center;" >
+
+        <h1>MICRO DOPPLER BASED TARGET CLASSIFICATION</h1>
+        
+
+        <h2>
+            <p inline style="color: rgb(106, 100, 193,);font-size: 30px; text-align: center;"> About the Project </p></h2>
+
+        <p inline style="color: white;font-size: 25px;">
+            Introduction
+Micro-Doppler classification is a technique that leverages the Doppler effect to analyze subtle motion patterns from various targets, such as people, animals, or objects. By using sensors like radar or LiDAR, the system captures these fine-grained motion features, which can be instrumental in differentiating between various types of movement.
+
+How It Works
+The core principle behind micro-Doppler classification is that moving objects reflect radar signals in a manner that is influenced by their velocity and the nature of their motion. These signals are processed to extract micro-Doppler signatures—distinctive patterns that reveal information about the object's behavior, speed, and type.
+
+Applications
+Micro-Doppler classification is widely used in various fields, including:
+
+Security and Surveillance: Identifying suspicious activities or detecting intruders based on motion patterns.
+Traffic Monitoring: Classifying vehicles and analyzing traffic flow.
+Wildlife Monitoring: Tracking animal movements without direct observation.
+Search and Rescue: Locating individuals in disaster scenarios through motion detection
+            
+        </p>
+
+        <!-- Use an anchor tag to navigate to the home page -->
+        <a href="{{ url_for('home') }}">
+            <button style="text-align: center;padding: 15px 30px; font-size: 18px;">Test Our Prototype</button>
+        </a>
+    </div>
+</body>
+</html>

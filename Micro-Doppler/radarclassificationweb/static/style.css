@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://wallpapers.com/images/hd/4k-tech-1eweq7h47kehxd7y.jpg');
+  background-size: cover; 
+}
+
+label{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+h1,h2{
+    color:#ffffff
+}
+h1{
+    text-align: center;
+}
+
+
+button{
+    background-color: rgb(127, 112, 154);
+}
